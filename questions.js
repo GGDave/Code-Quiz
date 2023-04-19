@@ -1,28 +1,64 @@
-let questions = [
+const quizData = [
+
     {
-      title: "Commonly used data types DO NOT include:",
-      choices: ["strings", "booleans", "alerts", "numbers"],
-      answer: "alerts"
-    },
-    {
-      title: "The condition in an if / else statement is enclosed within ____?",
-      choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-      answer: "parentheses"
-    },
-    {
-      title: "String values must be enclosed within ____ when  being assigned to a variables?",
-      choices: ["Commas", "curly brackets", "quotes", "parenthesis"],
-      answer: "parenthesis"
-    },
-    {
-      title: "Arrays in JavaScipt can be used to store?",
-      choices: ["number of strings", "other strings", "booleans", "all the above"],
-      answer: "all the above"
-    },
-    {
-      title: "A very usefull tool used during development and debugging for printing content to the debugger is:",
-      choices: ["JavaScript", "Terminal/Bash", "for loops", "console log"],
-      answer: "console log"
-    },
     
-  ]
+        question: 'Commonly used data types DO NOT include:',
+        answers: [
+            'Strings',
+            'booleans',
+            'alerts',
+            'numbers'
+        ],
+        correctAnswer: 'alerts'
+    },
+    {
+        question: 'Commonly used data types DO NOT include:?',
+        answers: [
+            'Strings',
+            'booleans',
+            'alerts',
+            'numbers'
+        ],
+        correctAnswer: 'alerts'
+    },
+    {
+        question: 'The condition in an if / else statement is enclosed within ____?',
+        answers: [
+            'quotes',
+            'curly brackets',
+            'parenthesis',
+            'square brackets'
+        ],
+        correctAnswer: 'parenthesis'
+    },
+	{
+        question: 'String values must be enclosed within ____ when  being assigned to a variables?',
+        answers: [
+            'commas',
+            'curly brackets',
+            'quotes',
+            'parenthesis'
+        ],
+        correctAnswer: 'Parenthesis'
+    },
+    {
+        question: 'Arrays in JavaScipt can be used to store?',
+        answers: [
+            'number of strings',
+            'other strings',
+            'booleans',
+            'all the above'
+        ],
+        correctAnswer: 'all the above'
+    },
+    {
+        question: 'A very usefull tool used during development and debugging for printing content to the debugger is:',
+        answers: [
+            'JavaScript',
+            'Terminal/Bash',
+            'for loops',
+            'Console log'
+        ],
+        correctAnswer: 'console log'
+    },
+];
