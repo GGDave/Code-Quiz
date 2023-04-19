@@ -8,13 +8,16 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container"> \
+      <!-- line 11 will use a class of "container", this will allow styling to be applied to all elemelements and children of the elemens-->
       <h1>Coding Quiz</h1>
           <p>Select "next" to begin</p>
       <div id="question-container"></div>
       <button id="next-btn">Next</button>
       <button id="submit-btn">Submit</button>
       <div id="result-container"></div>
+      <!-- lines 15 - 18 will use an "id" to their respected function, we will then use javascript and impliment logic. in the logic
+       we will use functions that will call back and allow that element to change by associating getElemtById and the "id" tag-->
     </div>
     <script src="./assets/script.js"></script>
       <script src="./assets/questions.js"></script>

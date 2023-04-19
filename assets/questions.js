@@ -1,3 +1,4 @@
+
 const quizData = [
 
     {
@@ -62,3 +63,4 @@ const quizData = [
         correctAnswer: 'console log'
     },
 ];
+

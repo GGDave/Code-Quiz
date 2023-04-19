@@ -2,9 +2,13 @@ const questionContainer = document.getElementById('question-container');
 const resultContainer = document.getElementById('result-container');
 const nextBtn = document.getElementById('next-btn');
 const submitBtn = document.getElementById('submit-btn');
+// lines 1 - 4, we create a constant to equal the "id" tags we want to target 
 
 let currentQuestion = 0 ;
+// line 7 is used to declare that the current question the the first question of the array.
+
 let score = 0;
+// line 11 start the score at 0
 
 function displayQuestion() {
     const question = quizData[currentQuestion];
